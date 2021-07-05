@@ -1,7 +1,8 @@
 # st version
 VERSION="0.8.4"
 
-PREFIX="/usr/local"
+DESTDIR=""
+PREFIX="/tmp/local"
 MANPREFIX="$PREFIX/share/man"
 
 X11INC=/usr/include/X11
