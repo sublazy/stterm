@@ -1,0 +1,3 @@
+[submodule "st-vanilla"]
+	path = st-vanilla
+	url = git://git.suckless.org/st
