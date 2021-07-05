@@ -3,8 +3,8 @@
 redo-ifchange config.sh
 . ./config.sh
 
-redo source
-redo patch
+redo sources
+redo patching
 
 cc -o $3 st.c x.c $FLAGS
 

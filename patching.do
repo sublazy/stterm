@@ -5,7 +5,7 @@ apply () {
     patch -Ns -r - -p1 -i $pathname 1>&2
 }
 
-redo source
+redo sources
 
 set +e # Allow patches to fail
 apply st-clipboard-0.8.3.diff
