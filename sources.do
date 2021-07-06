@@ -3,5 +3,4 @@
 
 cp st-vanilla/*.c ./
 cp st-vanilla/*.h ./
-cp st-vanilla/config.def.h ./config.h
 
