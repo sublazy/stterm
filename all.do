@@ -1,1 +1,1 @@
-redo st
+redo-ifchange st
