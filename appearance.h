@@ -1,1 +1,0 @@
-/home/cs/dotfiles/st/appearance.h

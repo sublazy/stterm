@@ -2,7 +2,8 @@
 /* config.h */
 /* Copyright 2021 Cezary Sałbut */
 
-#include "appearance.h"
+/* See config.sh for the value of this macro */
+#include CFG_APPEARANCE
 
 static size_t currentfont = 0;
 static int borderpx = 2;
