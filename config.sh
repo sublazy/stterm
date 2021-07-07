@@ -2,7 +2,7 @@
 VERSION="0.8.4"
 
 DESTDIR=""
-PREFIX="/tmp/local"
+PREFIX="/usr"
 MANPREFIX="$PREFIX/share/man"
 
 X11INC=/usr/include/X11
@@ -20,7 +20,7 @@ LIBS="-L$X11LIB -lm -lrt -lX11 -lutil -lXft \
     $(pkg-config --libs fontconfig) \
     $(pkg-config --libs freetype2)"
 
-CFLAGS="-O1"
+CFLAGS="-O3"
 STCPPFLAGS="-DVERSION=\"$VERSION\" -D_XOPEN_SOURCE=600"
 STCFLAGS="$INCS $STCPPFLAGS $CPPFLAGS $CFLAGS \
     -D CFG_APPEARANCE=\"$HDR_APPEARANCE\" "
