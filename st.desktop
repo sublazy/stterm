@@ -1,9 +1,11 @@
 [Desktop Entry]
+Version=1.0
 Type=Application
 Name=stterm
 GenericName=Terminal
 Comment=Suckless terminal emulator
-Exec=st
-Icon=utilities-terminal
+Exec=st -e zsh
+Icon=terminal-tango
 Terminal=false
-Categories=System;TerminalEmulator;
+Categories=System;TerminalEmulator;Utility
+StartupWMClass=st-256color
