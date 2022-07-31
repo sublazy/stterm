@@ -1,0 +1,14 @@
+diff --git a/st.c b/st.c
+index ebdf360..b048faf 100644
+--- a/st.c
++++ b/st.c
+@@ -678,8 +678,7 @@ execsh(char *cmd, char **args)
+ 			die("who are you?\n");
+ 	}
+ 
+-	if ((sh = getenv("SHELL")) == NULL)
+-		sh = (pw->pw_shell[0]) ? pw->pw_shell : cmd;
++	sh = "/usr/bin/zsh";
+ 
+ 	if (args) {
+ 		prog = args[0];
